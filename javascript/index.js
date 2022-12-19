@@ -151,7 +151,6 @@ Promise.all([
   obtainInstruction('brusselsSprouts', 7),
 ])
 .then((values) => {
-  console.log(values);
   document.querySelector("#brusselsSprouts").innerHTML += `
     <li>${values[0]}</li>
     <li>${values[1]}</li>
